@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    list-style: none;
  }
 
  body {
@@ -101,12 +102,27 @@ p {
     font-size: 30px;
 }
 
+.secao-das-listas {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
 .secao-li {
     max-width: 1024px;
     margin: 0 auto;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: relative;
+}
+
+.introducao {
+    position: absolute;
+    left: 470px;
 }
 
 .secao-li li {
@@ -114,17 +130,10 @@ p {
     font-size: 16px;
     text-align: right;
     margin-top: 10px;
-    margin-left: 40px;
+    margin: 2px;
 }
 
-.secao-das-listas {
-    max-width: 1024px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 20px;
-    padding-top: 20px;
 
-}
 
 .projeto-site {
     padding: 20px;
@@ -177,6 +186,13 @@ footer p {
     }
 
     .secao-li {
-        width: 48%;
+        width: 85%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .introducao {
+        position: absolute;
+        left: 135px;
     }
 }

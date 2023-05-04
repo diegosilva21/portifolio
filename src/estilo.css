@@ -164,5 +164,19 @@ footer p {
  }
 
 @media (max-width: 480px) {
+    .secao-informacao {
+        text-align: center;
+    }
   
+    .estudante {
+        text-align: center;
+    }
+
+    .img-conteudo {
+        width: 25%;
+    }
+
+    .secao-li {
+        width: 48%;
+    }
 }

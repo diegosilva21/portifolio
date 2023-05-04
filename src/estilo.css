@@ -157,19 +157,17 @@ p {
 }
 
 .final {
-    margin: 30px;
-    padding-bottom: 30px;
+    margin-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     list-style: none;
 }
 
 footer p {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 14px;
     width: 100%;
     text-align: center; 
     margin: 0 auto;
-    margin-top: 25px;
  }
 
 @media (max-width: 480px) {

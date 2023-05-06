@@ -76,6 +76,21 @@ p {
     font-size: 22px;
 }
 
+.estudante a {
+    text-decoration: none;
+    background-color: #227e22;
+    color: #f0f8ff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 3px;
+    border-radius: 10px;
+    border: 3px solid #8d8282;
+}
+
+.estudante a:hover {
+    background-color: #269d26;
+}
+
 .secao-das-imagens {
     width: 100%;
     display: flex;

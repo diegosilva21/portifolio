@@ -232,5 +232,11 @@ footer {
         margin: 0 auto;
         position: relative;
     }
+    
+        .introducao {
+        width: 0%;
+        position: absolute;
+        left: 130px;
+    }
 
 }

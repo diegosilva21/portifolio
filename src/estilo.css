@@ -208,6 +208,12 @@ footer {
     width: 30px;
 }
 
+.rodape-conteudo img:hover {
+    scale: 1.7;
+    transition: .3s;
+    opacity: 0.8;
+}
+
 .rodape-conteudo span {
     color: #fff;
     font-size: 18px;

@@ -233,10 +233,25 @@ footer {
         position: relative;
     }
     
-        .introducao {
+     .introducao {
         width: 0%;
         position: absolute;
         left: 130px;
+    }
+    
+     .footer {
+        width: 90%;
+        padding: 5px;
+    }
+
+    .rodape-conteudo img {
+        width: 5%;
+    }
+
+    .rodape-conteudo span {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
     }
 
 }

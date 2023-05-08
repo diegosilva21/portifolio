@@ -234,6 +234,20 @@ footer {
         position: relative;
     }
 
+    .img-final {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-final-1 {
+        width: 140px;
+    }
+
+    .img-final-2 {
+        width: 140px;
+        height: 138px;
+    }
+
     .footer {
         width: 90%;
         padding: 15px;
@@ -243,7 +257,7 @@ footer {
         width: 5%;
         padding-left: 45px;
     }
-
+    
     .rodape-conteudo span {
         display: flex;
         align-items: center;

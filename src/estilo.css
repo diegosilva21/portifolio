@@ -132,12 +132,6 @@ p {
     position: relative;
 }
 
-.introducao {
-    width: 0%;
-    position: absolute;
-    left: 470px;
-}
-
 .secao-li li {
     max-width: 480px;
     font-size: 16px;
@@ -239,14 +233,8 @@ footer {
         margin: 0 auto;
         position: relative;
     }
-    
-     .introducao {
-        width: 0%;
-        position: absolute;
-        left: 130px;
-    }
-    
-     .footer {
+
+    .footer {
         width: 90%;
         padding: 15px;
     }

@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     list-style: none;
  }
 
@@ -142,13 +144,12 @@ p {
 
 
 .projeto-site {
-    padding: 20px;
     margin: 0 auto;
     text-align: center;
 }
 
 .projeto-site h2 {
-    margin: 20px;
+    margin-top: 30px;
     font-size: 25px;
 }
 
@@ -169,7 +170,7 @@ p {
 
 .img-final-2 {
     width: 180px;
-    height: 177px;
+    height: 167px;
     padding-left: 10px;
 }
 
@@ -180,57 +181,51 @@ p {
 }
 
 footer {
-    max-width: 400px;
-    background: #9976d2;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    border: 5px solid #6b6b8c;
+    border: 2px solid #5e3f3f;
+    width: 100%;
+    background-color: #318181;
+    padding: 0;
 }
 
-.rodape {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-
-.rodape-conteudo {
-    display: flex;
-    flex-direction: column;
-}
-
-.rodape-conteudo h2 {
+ .contato h2 {
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 25px;
     color: #fff;
-    margin: 0 0 15px 0;
-    font-size: 30px;
-    border: #962121;
 }
 
-.rodape-conteudo div {
+.rodape-imagem {
+    margin-top: -30px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin: 5px 0;
 }
 
-.rodape-conteudo img {
-    width: 30px;
+.whatsapp-github {
+    width: 42px;
 }
 
-.rodape-conteudo img:hover {
-    scale: 1.3;
-    transition: .2s;
-    opacity: 0.8;
+.whatsapp-github:hover {
+    scale: 1.2;
+    transition: .4s;
+    opacity: 0.9;
 }
 
-.rodape-conteudo span {
+.linkedin {
+    padding: 10px 30px;
+}
+.linkedin:hover {
+    scale: 1.2;
+    transition: .3s;
+    opacity: 0.9;
+}
+
+footer p {
+    text-align: center;
     color: #fff;
-    font-size: 18px;
-    margin: 0 0 0px 10px;
+    padding-bottom: 15px;
 }
-
+ 
 @media (max-width: 480px) {
     .secao-informacao {
         text-align: center;
@@ -251,34 +246,16 @@ footer {
         position: relative;
     }
 
-    .img-final {
-        display: flex;
-        justify-content: center;
-    }
-
     .img-final-1 {
         width: 140px;
     }
 
     .img-final-2 {
         width: 140px;
-        height: 138px;
+        height: 129px;
     }
 
-    .footer {
-        width: 90%;
-        padding: 15px;
-    }
-
-    .rodape-conteudo img {
-        width: 5%;
-        padding-left: 45px;
-    }
-
-    .rodape-conteudo span {
-        display: flex;
-        align-items: center;
+    footer p {
         font-size: 14px;
     }
-
 }

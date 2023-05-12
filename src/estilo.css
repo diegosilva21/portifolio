@@ -181,7 +181,7 @@ p {
 }
 
 footer {
-    border: 2px solid #5e3f3f;
+    border-top: 2px solid #5e3f3f;
     width: 100%;
     background-color: #318181;
     padding: 0;
@@ -224,7 +224,8 @@ footer {
 }
 
 .linkedin {
-    padding: 10px 30px;
+    width: 70px;
+    padding: 15px;    
 }
 .linkedin:hover {
     scale: 1.3;

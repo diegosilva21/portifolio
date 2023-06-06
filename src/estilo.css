@@ -251,6 +251,7 @@ footer p {
     .estudante {
         width: 85%;
         text-align: center;
+        text-align: justify;
     }
 
     .img-conteudo {

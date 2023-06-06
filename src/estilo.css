@@ -72,7 +72,10 @@ p {
 }
 
 .estudante {
+    width: 45%;
     font-size: 22px;
+    padding: 10px;
+    text-align: justify;  
 }
 
 .estudante a {

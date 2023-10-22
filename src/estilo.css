@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+ }
+
+ body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #e4ebf1;
+ }
+
+ .secao-topo {
+    border-bottom: 1px solid #827c7c;
+}
+
+.secao-informacao {
+    max-width: 670px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding: 25px;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 35px;
+}
+
+h2 {
+    padding-top: 10px;
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 17px;
+}
+
+h4 {
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.secao-capa {
+    min-height: 500px;
+    background-image: url('imagem/tecnologia-da-informacao.jpeg');
+    background-size: cover;
+}
+
+.secao-background-conteudo {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.sobre-mim {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: -20px 0px;
+    border-top: 1px solid #827c7c;
+}
+
+.sobre-mim h3 {
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.estudante {
+    width: 55%;
+    font-size: 22px;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+.estudante a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000000;
+    font-size: 18px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.estudante a:hover {
+    background-color: #6dc76d;
+    color: #4b3cab;
+    border: 2px #077207 solid;
+
+}
+
+.secao-das-imagens {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-conteudo {
+    width: 120px;
+    padding: 10px;
+}
+
+.img-conteudo:hover {
+    scale: 1.2;
+    transition: .6s;
+    opacity: 0.9;
+}
+
+.secao-atuacao {
+    text-align: center;
+    margin: 50px 0px 20px 0;
+}
+
+.secao-atuacao h3 {
+    font-size: 30px;
+    border: 2px #145f14 solid;
+    border-radius: 10px;
+    background-color: #0edb0e;
+    width: 140px;
+    margin: 0 auto;
+}
+
+.secao-das-listas {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border: 1px #2a3f54 solid;
+    border-radius: 10px;
+}
+
+.secao-li {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.secao-li li {
+    max-width: 480px;
+    font-size: 16px;
+    text-align: right;
+    margin-top: 10px;
+    margin: 2px;
+}
+
+
+.projeto-site {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.projeto-site h2 {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.img-final {
+    padding: 25px;
+}
+
+.img-final-1 {
+    width: 180px;
+    padding-right: 10px;
+}
+
+.img-final-1:hover {
+    scale: 1.2;
+    transition: .6s;
+    opacity: 0.9;
+}
+
+.img-final-2 {
+    width: 180px;
+    height: 167px;
+    padding-left: 10px;  
+}
+
+.img-final-2:hover {
+    scale: 1.2;
+    transition: .6s;
+    opacity: 0.9;
+}
+
+.img-final-3 {
+    width: 180px;
+    height: 167px;
+    padding-left: 21px;  
+}
+
+.img-final-3:hover {
+    scale: 1.2;
+    transition: .6s;
+    opacity: 0.9;
+}
+
+footer {
+    width: 100%;
+    background-color: #2a3f54;
+    padding: 0;
+}
+
+ .contato h2 {
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 25px;
+    color: #fff;
+}
+
+.rodape-imagem {
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp {
+    width: 68px;
+    padding: 15px ;
+}
+
+.whatsapp:hover {
+    scale: 1.3;
+    transition: .5s;
+    opacity: 0.7;
+}
+
+.github {
+    width: 72px;
+    padding: 15px;
+}
+
+.github:hover {
+    scale: 1.3;
+    transition: .5s;
+    opacity: 0.7;
+}
+.linkedin {
+    width: 70px;
+    padding: 15px;
+}
+.linkedin:hover {
+    scale: 1.3;
+    transition: .5s;
+    opacity: 0.8;
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+ 
+@media (max-width: 480px) {
+    .secao-informacao {
+        text-align: center;
+    }
+  
+    .estudante {
+        width: 85%;
+        text-align: center;
+        text-align: justify;
+    }
+
+    .img-conteudo {
+        width: 25%;
+    }
+
+    .secao-das-listas {
+        width: 340px;
+    }
+
+    .secao-li {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .img-final-1 {
+        width: 140px;
+    }
+
+    .img-final-2 {
+        width: 140px;
+        height: 129px;
+    }
+
+    .img-final-3 {
+        width: 140px;
+        height: 129px;
+        padding-top: 10px;
+        padding-left: 1px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
